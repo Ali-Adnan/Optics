@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px) {
+
+.company {
+  display: none;
+}
+
+.main-banner {
+  background-position: 20%;
+  height: 17rem;
+}
+
+.slogan {
+  margin-top: 9rem;
+  width: 100%;
+}
+
+}

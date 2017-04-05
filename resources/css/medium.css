@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+
+.container {
+    width: 100%;
+  }
+
+.main-banner {
+  height: 22rem;
+  padding-top: 0;
+}
+.menu {
+  display: none;
+}
+
+.mobile {
+  display: block;
+  padding-right: 2rem;
+}
+
+  .slogan {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .slogan h1 {
+    font-size: 1.33rem;
+    padding: .75rem 4rem;
+  }
+}

@@ -1,0 +1,218 @@
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/*Begin Header CSS w/ background img, menu bar, and slogan*/
+header {
+  background-image: url(../images/glasses-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.container {
+  margin: auto;
+  max-width: 960px;
+}
+
+.row {
+  background-color: cadetblue;
+}
+/*Logo CSS*/
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+}
+
+.logo h1 {
+  padding: 0 1rem;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+/*Menu bar*/
+nav {
+  background-color: cadetblue;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.mobile {
+  display: none;
+}
+
+.services, .products, .contact {
+  padding-right: 2rem;
+}
+
+/*SLOGAN W/ WHITE BG*/
+
+.content {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.slogan {
+  display: inline-block;
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+.slogan h1 {
+  font-size: 2rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+}
+
+/*BEGIN CSS FOR ICONS SECTION*/
+
+.icons {
+  display: flex;
+justify-content: center;
+margin-top: 3rem;
+
+}
+.icon {
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 5rem;
+}
+
+.icon img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.icon.exam img {
+  width: 3.5rem;
+}
+
+.icon.ruler, .icon.exam {
+  padding-right: 6rem;
+}
+
+
+/*BEGIN PHILO & APPT CSS*/
+.container.phi-apt {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.philo, .appt {
+  width: 35%;
+  margin-right: 5%;
+}
+.title {
+  background-color: cadetblue;
+  padding: .5rem 1.25rem;
+  color: white;
+  font-size: 1rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  max-width: 10rem;
+}
+
+.philo p, .appt p {
+  padding: 1rem 0;
+  line-height: 1.2rem;
+}
+/*BEGIN FOOTER CSS FOR LOGO AND COPY*/
+footer .copy {
+  background-color: azure;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.copy {
+  padding: 4rem 3rem;
+}
+/*END DESKTOP CSS*/
+
+/*BEGIN MEDIA CSS*/
+
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+
+.container {
+    width: 100%;
+  }
+
+.main-banner {
+  height: 22rem;
+  padding-top: 0;
+}
+.menu {
+  display: none;
+}
+
+.mobile {
+  display: block;
+  padding-right: 2rem;
+}
+
+  .slogan {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .slogan h1 {
+    font-size: 1.33rem;
+    padding: .75rem 4rem;
+  }
+}
+
+/*MOBILE PHONE CSS*/
+@media only screen and (max-width: 480px) {
+
+.company {
+  display: none;
+}
+
+.main-banner {
+  background-position: 20%;
+  height: 17rem;
+}
+
+.slogan {
+  margin-top: 9rem;
+  width: 100%;
+}
+
+}
